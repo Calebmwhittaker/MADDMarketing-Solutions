@@ -4,14 +4,15 @@ const Layout = () => {
   return (
     <>
       <nav>
-        <a
+        <ul>
+        <li><a
           href="https://www.maddmarketingsolutions.com/"
           target="_blank"
           rel="noreferrer"
         >
           <img className="logo" src="MADDMkt_Logo.png" alt=""></img>
         </a>
-        <ul>
+        </li>
           <li>
             <Link to="/">Home</Link>
           </li>

@@ -1,0 +1,159 @@
+.logo {
+  width: 30%;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav li,  nav a {
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.main-title {
+  background-color: #487ead;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.services-container {
+  background-color: rgb(171, 171, 171);
+  text-align: center;
+}
+
+.webDesign {
+  grid-area: top-left;
+}
+
+.socialMedia {
+  grid-area: top-right;
+}
+
+.strategy {
+  grid-area: bottom-left;
+}
+
+.coaching {
+  grid-area: bottom-right;
+}
+
+.services img {
+  justify-content: center;
+}
+.services p{
+  margin: auto 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+a:visited, a:link {
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+.learnMore button a{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+.learnMore button {
+  background-color: black;
+  width: 135px;
+  height: 45px;
+  font-size: 18px;
+  margin: 20px 0
+}
+
+.testimonials-container {
+  text-align: center;
+}
+.testimonials-container img{
+  text-align: center;
+  border-radius: 160px;
+  width: 35%;
+}
+
+.contact-container {
+  background-color: #487ead;
+  color: white;
+  text-align: center;
+}
+
+.contact-container button {
+  color: white;
+  background-color: #85c3d7;
+  line-height: 30px;
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.contact-container button a {
+  text-decoration: none;
+}
+
+footer p {
+  text-align: left;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container h2 {
+  width: 75%;
+  margin: 40px auto;
+}
+@media screen and (min-width: 1230px) {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+
+  nav {
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "top-left top-right"
+    "bottom-left bottom-right";
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* * {
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */
+
