@@ -3,16 +3,16 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
+    <header class="sticky-top">
       <nav>
-        <ul>
-        <li><a
+      <a
           href="https://www.maddmarketingsolutions.com/"
           target="_blank"
           rel="noreferrer"
         >
           <img className="logo" src="MADDMkt_Logo.png" alt=""></img>
         </a>
-        </li>
+        <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -27,6 +27,7 @@ const Layout = () => {
           </li>
         </ul>
       </nav>
+      </header>
 
       <Outlet />
     </>
