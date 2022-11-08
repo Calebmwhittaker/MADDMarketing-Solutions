@@ -63,6 +63,8 @@ const Home = () => {
           <br></br>
           <br></br>
           <img src="TLD.png" alt="TLD Holdings Logo"></img>
+          <br></br>
+          <br></br>
           <p>
             Andrea: President of{" "}
             <a
@@ -78,7 +80,9 @@ const Home = () => {
           <br></br>
           <br></br>
           <br></br>
-          <img src="THLogo.png" alt="Total Health Logo"></img>
+          <img src="THLogo.png" alt="Total Health Logo" class="rounded-circle"></img>
+          <br></br>
+          <br></br>
           <p>
             Jenna: Owner of{" "}
             <a
@@ -101,6 +105,7 @@ const Home = () => {
         </div>
       </main>
       <footer>
+        <br></br>
         <p>Stay in touch.</p>
         <div className="footer-links">
         <a
@@ -127,6 +132,7 @@ const Home = () => {
           Blog
         </a>
         </div>
+        <i class="fa-brands fa-facebook-f"></i>
       </footer>
     </>
   );
