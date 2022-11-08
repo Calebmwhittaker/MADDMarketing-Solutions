@@ -132,7 +132,6 @@ const Home = () => {
           Blog
         </a>
         </div>
-        <i class="fa-brands fa-facebook-f"></i>
       </footer>
     </>
   );

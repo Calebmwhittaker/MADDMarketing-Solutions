@@ -145,6 +145,10 @@ footer p {
   flex-direction: column;
 }
 
+.footer-links a {
+  width: fit-content;
+}
+
 .contact-container h2 {
   width: 75%;
   margin: 40px auto;
