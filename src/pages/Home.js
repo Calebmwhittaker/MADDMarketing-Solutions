@@ -1,3 +1,7 @@
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+
 const Home = () => {
   return (
     <>
@@ -38,7 +42,7 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Learn More
+              Our Services
             </a>
           </button>
           </div>
@@ -106,7 +110,15 @@ const Home = () => {
       </main>
       <footer>
         <br></br>
-        <p>Stay in touch.</p>
+        <p>Stay in touch!
+        <br></br>
+          <div className='icon-links'>
+        <a href="https://www.facebook.com/maddmkt" target="_blank" rel="noreferrer"><FontAwesomeIcon className="facebook-icon" icon={faFacebook} /></a>
+        <a href="https://www.instagram.com/maddmkt/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="instagram-icon" icon={faInstagram} /></a>
+        <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer"><FontAwesomeIcon className="twitter-icon" icon={faTwitter} /></a>
+        <a href="https://www.youtube.com/channel/UC8EQY_bSQY7Gqvu6ayQ3ajA?app=desktop" target="_blank" rel="noreferrer"><FontAwesomeIcon className="youtube-icon" icon={faYoutube} /></a>
+          </div>
+        </p>
         <div className="footer-links">
         <a
           href="https://www.maddmarketingsolutions.com/contact"
@@ -131,7 +143,7 @@ const Home = () => {
         >
           Blog
         </a>
-        </div>
+      </div>
       </footer>
     </>
   );

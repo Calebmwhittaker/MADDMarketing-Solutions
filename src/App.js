@@ -7,7 +7,10 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import NoPage from './pages/NoPage';
 import 'font-awesome/css/font-awesome.min.css';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faMoon } from "@fortawesome/free-solid-svg-icons";
 
+library.add(faMoon);
 
 
 function App() {

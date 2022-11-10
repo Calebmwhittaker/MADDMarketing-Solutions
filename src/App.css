@@ -3,28 +3,16 @@ p {
 }
 
 .logo {
-  width: 20%;
-
+  width: 30%;
+  float: left;
 }
 
 header {
-  display: flex;
   background-color: gray;
-  text-align: left;
 }
 
-nav ul {
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    display: none;
-  }
-
-nav li,  nav a {
-  text-align: center;
-  list-style-type: none;
-  text-decoration: none;
+.container-fluid > a {
+  width: 50%;
 }
 
 .main-title {
@@ -136,7 +124,7 @@ p {
 }
 
 footer p {
-  text-align: left;
+  text-align: center;
   font-size: 18px;
 }
 
@@ -152,6 +140,29 @@ footer p {
 .contact-container h2 {
   width: 75%;
   margin: 40px auto;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.facebook-icon {
+  color: rgb(50, 50, 249);
+}
+
+.instagram-icon {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90% );
+  border-radius: 3px 3px 3px 3px;
+  color: white;
+}
+
+.twitter-icon {
+  color: rgb(55, 197, 245);
+}
+
+.youtube-icon {
+  color: red;
 }
 
 @media screen and (min-width: 1230px) {
