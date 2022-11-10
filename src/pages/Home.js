@@ -112,6 +112,7 @@ const Home = () => {
         <br></br>
         <p>Stay in touch!
         <br></br>
+        <br></br>
           <div className='icon-links'>
         <a href="https://www.facebook.com/maddmkt" target="_blank" rel="noreferrer"><FontAwesomeIcon className="facebook-icon" icon={faFacebook} /></a>
         <a href="https://www.instagram.com/maddmkt/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="instagram-icon" icon={faInstagram} /></a>
