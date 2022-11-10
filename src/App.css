@@ -7,6 +7,16 @@ p {
   float: left;
 }
 
+.navbar-nav {
+  display: flex;
+  margin: 0 auto;
+}
+
+.nav-item {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 header {
   background-color: gray;
 }
@@ -144,20 +154,25 @@ footer p {
 
 .facebook-icon {
   color: rgb(50, 50, 249);
+  height: 25px;
 }
 
 .instagram-icon {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90% );
   border-radius: 3px 3px 3px 3px;
   color: white;
+  width: 25px;
+  height: 25px;
 }
 
 .twitter-icon {
   color: rgb(55, 197, 245);
+  height: 25px;
 }
 
 .youtube-icon {
   color: red;
+  height: 25px;
 }
 
 @media screen and (min-width: 1230px) {
