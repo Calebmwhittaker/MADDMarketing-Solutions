@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Services from './pages/Services';
 import NoPage from './pages/NoPage';
 import 'font-awesome/css/font-awesome.min.css';
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -22,6 +23,7 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="services" element={<Services />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

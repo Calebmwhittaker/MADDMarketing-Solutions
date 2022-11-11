@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
     <header class="sticky-top">
-    <nav class="navbar navbar-expand-sm navbar-dark col-md-9 col-lg-9">
+    <nav class="navbar navbar-expand-sm navbar-dark">
   <div class="container-fluid">
   <a
           href="https://www.maddmarketingsolutions.com/"
@@ -25,6 +25,9 @@ const Layout = () => {
         </li>
         <li class="nav-item">
         <Link to="/about" class="nav-link" href="#">About</Link> 
+        </li>
+        <li class="nav-item">
+        <Link to="/services" class="nav-link" href="#">Services</Link>
         </li>
         <li class="nav-item">
         <Link to="/blog" class="nav-link" href="#">Blog</Link>

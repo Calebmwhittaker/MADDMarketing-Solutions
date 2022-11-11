@@ -3,13 +3,12 @@ p {
 }
 
 .logo {
-  width: 30%;
-  float: left;
+  width: 40%;
 }
 
-.navbar-nav {
+.collapse {
   display: flex;
-  margin: 0 auto;
+  justify-content: space-evenly;
 }
 
 .nav-item {
@@ -22,7 +21,7 @@ header {
 }
 
 .container-fluid > a {
-  width: 50%;
+  width: 250px
 }
 
 .main-title {
@@ -175,32 +174,6 @@ footer p {
   height: 25px;
 }
 
-@media screen and (min-width: 1230px) {
-  ul {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-  }
-
-  nav {
-    text-align: center;
-    width: 30%;
-    margin: 0 auto;
-  }
-
-  .services {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "top-left top-right"
-    "bottom-left bottom-right";
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 /*About css*/
 
 .about-page {
@@ -222,6 +195,23 @@ footer p {
   width: 75%;
   margin: 0 auto;
 }
+
+/*Services page*/
+
+.services-page {
+  text-align: center;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.services-first-image, .services-second-image  {
+  width: 70%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
 /* * {
   outline: 1px solid red;
   outline-offset: -1px;
