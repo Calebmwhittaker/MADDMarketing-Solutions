@@ -4,11 +4,21 @@ p {
 
 .logo {
   width: 40%;
+  position: fixed;
+  top: -20px;
+  left: 0;
+  width: 100px;
+  z-index: 10000;
 }
 
 .collapse {
   display: flex;
   justify-content: space-evenly;
+}
+
+.navbar-toggler {
+  justify-content: end;
+  margin: 0 86%;
 }
 
 .nav-item {
