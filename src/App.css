@@ -150,28 +150,30 @@ footer p {
 .icon-links {
   display: flex;
   justify-content: space-evenly;
+  margin-top: -40px;
+  margin-bottom: 20px;
 }
 
 .facebook-icon {
-  color: rgb(50, 50, 249);
+  color: #355C7E;
   height: 25px;
 }
 
 .instagram-icon {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90% );
-  border-radius: 3px 3px 3px 3px;
+  background-color: #355C7E;
+  border-radius: 8px;
   color: white;
   width: 25px;
   height: 25px;
 }
 
 .twitter-icon {
-  color: rgb(55, 197, 245);
+  color: #355C7E;
   height: 25px;
 }
 
 .youtube-icon {
-  color: red;
+  color: #355C7E;
   height: 25px;
 }
 
