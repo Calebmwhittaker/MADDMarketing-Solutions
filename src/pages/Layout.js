@@ -10,11 +10,11 @@ const Layout = () => {
       >
         <img className="logo" src="MADDMkt_Logo.png" alt=""></img>
       </a>
-      <header class="sticky-top">
-        <nav class="navbar navbar-expand-sm navbar-dark">
-          <div class="container-fluid">
+      <header className="sticky-top">
+        <nav className="navbar navbar-expand-sm navbar-dark">
+          <div className="container-fluid">
             <button
-              class="navbar-toggler justify-content-end"
+              className="navbar-toggler justify-content-end"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -22,37 +22,37 @@ const Layout = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
+            <div className="collapse navbar-collapse " id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item">
                   <Link
                     to="/"
-                    class="nav-link active"
+                    className="nav-link active"
                     aria-current="page"
                     href="#"
                   >
                     Home
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link to="/about" class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link to="/about" className="nav-link" href="#">
                     About
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link to="/services" class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link to="/services" className="nav-link" href="#">
                     Services
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link to="/blog" class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link to="/blog" className="nav-link" href="#">
                     Blog
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link to="/contact" class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link to="/contact" className="nav-link" href="#">
                     Contact
                   </Link>
                 </li>
