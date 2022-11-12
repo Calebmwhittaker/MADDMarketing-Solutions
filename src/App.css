@@ -4,6 +4,7 @@
 
 p {
   font-size: 18px;
+  padding: 0 10px;
 }
 
 .logo {
@@ -65,6 +66,10 @@ h2 {
 .services-container {
   background-color: rgb(197, 197, 197);
   text-align: center;
+}
+
+.services-container h2 {
+  padding-top: 30px;
 }
 
 .services img {
@@ -225,6 +230,7 @@ footer p {
 
 .form-group label {
   text-align: left;
+  color: #ffffff;
 }
 
 .services-page > h2 {
@@ -241,6 +247,10 @@ form {
 
 form input {
   display: inline-block;
+}
+
+.card-title {
+  font-size: 20px;
 }
 
 .navbar .navbar-nav .nav-link {

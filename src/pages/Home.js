@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../components/Footer';
+import Grid from '../components/Grid';
 
 const Home = () => {
   return (
@@ -18,24 +19,7 @@ const Home = () => {
         </div>
         <div className="services-container">
         <h2>Our services</h2>
-        <div className="services">
-          <div className="webDesign">
-            <img src="computer_image.png" alt="Website Design"></img>
-            <p>Website Design</p>
-          </div>
-          <div className="socialMedia">
-            <img src="social_media_image.png" alt="Social Media"></img>
-            <p>Social Media</p>
-          </div>
-          <div className="strategy">
-            <img src="lightbulb_image.png" alt="Strategy"></img>
-            <p>Strategy</p>
-          </div>
-          <div className="coaching">
-            <img src="coaching_image.png" alt="Coaching"></img>
-            <p>Coaching</p>
-          </div>
-        </div>
+        <Grid />
         <div className="learnMore">
         <button>
             <a
