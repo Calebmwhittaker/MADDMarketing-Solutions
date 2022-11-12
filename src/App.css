@@ -31,7 +31,7 @@ p {
 }
 
 header {
-  background-color: #487ead;
+  background-color: #355C7E;
 }
 
 .container-fluid > a {
@@ -39,7 +39,7 @@ header {
 }
 
 .main-title {
-  background-color: #487ead;
+  background-color: #355C7E;
   height: 400px;
   width: 100%;
   display: flex;
@@ -109,7 +109,7 @@ p {
 }
 
 .contact-container {
-  background-color: #487ead;
+  background-color: #355C7E;
   color: white;
   text-align: center;
 }
@@ -234,11 +234,38 @@ footer p {
 }
 
 form {
-  background-color: #487ead;
+  background-color: #355C7E;
 }
 
 form input {
   display: inline-block;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #FFFFFF;
+  font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #FFFFFF;
+  width: 0%;
+  content: "";
+  height: 2px;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
 }
 
 /* * {

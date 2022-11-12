@@ -11,10 +11,10 @@ export default function Footer() {
         <br></br>
         <br></br>
           <div className='icon-links'>
-        <a href="https://www.facebook.com/maddmkt" target="_blank" rel="noreferrer"><FontAwesomeIcon className="facebook-icon" icon={faFacebook} /></a>
-        <a href="https://www.instagram.com/maddmkt/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="instagram-icon" icon={faInstagram} /></a>
-        <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer"><FontAwesomeIcon className="twitter-icon" icon={faTwitter} /></a>
-        <a href="https://www.youtube.com/channel/UC8EQY_bSQY7Gqvu6ayQ3ajA?app=desktop" target="_blank" rel="noreferrer"><FontAwesomeIcon className="youtube-icon" icon={faYoutube} /></a>
+        <a href="https://www.facebook.com/maddmkt" target="_blank" rel="noreferrer" aria-label="Facebook"><FontAwesomeIcon className="facebook-icon" icon={faFacebook} /></a>
+        <a href="https://www.instagram.com/maddmkt/" target="_blank" rel="noreferrer" aria-label="Instagram"><FontAwesomeIcon className="instagram-icon" icon={faInstagram} /></a>
+        <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer" aria-label='Twitter'><FontAwesomeIcon className="twitter-icon" icon={faTwitter} /></a>
+        <a href="https://www.youtube.com/channel/UC8EQY_bSQY7Gqvu6ayQ3ajA?app=desktop" target="_blank" rel="noreferrer" aria-label='Youtube'><FontAwesomeIcon className="youtube-icon" icon={faYoutube} /></a>
           </div>
         <div className="footer-links">
         <a

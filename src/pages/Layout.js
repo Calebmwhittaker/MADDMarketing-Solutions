@@ -7,6 +7,7 @@ const Layout = () => {
         href="https://www.maddmarketingsolutions.com/"
         target="_blank"
         rel="noreferrer"
+        aria-label="MaddMarketing Solutions"
       >
         <img className="logo" src="MADDMkt_Logo.png" alt=""></img>
       </a>
