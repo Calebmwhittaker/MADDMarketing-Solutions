@@ -22,8 +22,8 @@ const Home = () => {
         <h2>Our services</h2>
         <Grid />
         <div className="learnMore">
-        <button>
-            <a
+        <button className="btn">
+            <a 
               href="https://www.maddmarketingsolutions.com/services"
               target="_blank"
               rel="noreferrer"
@@ -36,7 +36,7 @@ const Home = () => {
         <Testimonials />
         <div className="contact-container">
           <h2>Get started with MaddMarketing today!</h2>
-          <button><a href="https://www.maddmarketingsolutions.com/contact" target="_blank" rel="noreferrer">Contact Us</a></button>
+          <button className='btn'><a href="https://www.maddmarketingsolutions.com/contact" target="_blank" rel="noreferrer">Contact Us</a></button>
         </div>
       </main>
       <Footer />

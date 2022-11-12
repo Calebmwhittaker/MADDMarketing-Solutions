@@ -190,6 +190,17 @@ footer p {
   text-align: center;
 }
 
+.about-page h1 {
+  font-size: 55px;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.about-page p {
+  width: 60%;
+  margin: 20px auto;
+}
+
 .about-title {
   padding-top: 20px;
   font-size: 40px;
@@ -320,7 +331,7 @@ small {
   margin-top: 30px;
 }
 
-* {
+/* * {
   outline: 1px solid red;
   outline-offset: -1px;
-}
+} */
