@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
   return (
@@ -13,7 +13,6 @@ export default function Footer() {
           <div className='icon-links'>
         <a href="https://www.facebook.com/maddmkt" target="_blank" rel="noreferrer" aria-label="Facebook"><FontAwesomeIcon className="facebook-icon" icon={faFacebook} /></a>
         <a href="https://www.instagram.com/maddmkt/" target="_blank" rel="noreferrer" aria-label="Instagram"><FontAwesomeIcon className="instagram-icon" icon={faInstagram} /></a>
-        <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer" aria-label='Twitter'><FontAwesomeIcon className="twitter-icon" icon={faTwitter} /></a>
         <a href="https://www.youtube.com/channel/UC8EQY_bSQY7Gqvu6ayQ3ajA?app=desktop" target="_blank" rel="noreferrer" aria-label='Youtube'><FontAwesomeIcon className="youtube-icon" icon={faYoutube} /></a>
           </div>
         <div className="footer-links">
@@ -24,7 +23,6 @@ export default function Footer() {
         >
           Contact us
         </a>
-        <br></br>
         <a
           href="https://www.maddmarketingsolutions.com/services"
           target="_blank"
@@ -32,7 +30,6 @@ export default function Footer() {
         >
           Services
         </a>
-        <br></br>
         <a
           href="https://www.maddmarketingsolutions.com/blog"
           target="_blank"
@@ -41,6 +38,7 @@ export default function Footer() {
           Blog
         </a>
       </div>
+      <p><small>&copy; 2022 MaddMarketing Solutions, LLC. All Rights Reserved.</small></p>
       </footer>
     </div>
   )
