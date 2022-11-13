@@ -1,17 +1,27 @@
+/*all css*/
+
 * {
   font-family: Tahoma;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 18px;
   padding: 0 10px;
+  text-align: center;
+
 }
 
+h2 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+/*nav css*/
+
 .logo {
-  width: 40%;
   position: fixed;
   top: -20px;
-  left: 0;
   width: 100px;
   z-index: 10000;
 }
@@ -22,12 +32,10 @@ p {
 }
 
 .navbar-toggler {
-  justify-content: end;
   margin: 0 86%;
 }
 
 .nav-item {
-  width: fit-content;
   margin: 0 auto;
 }
 
@@ -35,14 +43,38 @@ header {
   background-color: #355C7E;
 }
 
-.container-fluid > a {
-  width: 250px
+.navbar .navbar-nav .nav-link {
+  color: #FFFFFF;
+  font-size: 1.1em;
 }
+.navbar .navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #FFFFFF;
+  width: 0%;
+  content: "";
+  height: 2px;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+/*home css*/
 
 .main-title {
   background-color: #355C7E;
   height: 400px;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,12 +87,7 @@ header {
 .main-title h1 {
   text-align: center;
   color: #ffffff;
-  font-size: 60px;}
-
-h2 {
-  text-align: center;
-  font-size: 35px;
-  padding-top: 10px;
+  font-size: 60px;
 }
 
 .services-container {
@@ -68,16 +95,8 @@ h2 {
   text-align: center;
 }
 
-.services-container h2 {
-  padding-top: 30px;
-}
-
-.services img {
-  justify-content: center;
-}
 .services p {
   margin: auto 0;
-  font-weight: 600;
   font-size: 20px;
 }
 
@@ -85,32 +104,16 @@ a:visited, a:link {
   color: black;
 }
 
-p {
-  text-align: center;
-}
-
 .learnMore button a {
   color: white;
   text-decoration: none;
-  text-shadow: 1px 1px 1px grey;
 }
 
 .learnMore button {
   background-color: black;
-  width: 135px;
-  height: 45px;
   font-size: 18px;
   margin: 20px 0;
   text-shadow: 1px 1px 1px grey;
-}
-
-.testimonials-container {
-  text-align: center;
-}
-
-.testimonials-container img {
-  text-align: center;
-  width: 35%;
 }
 
 .contact-container {
@@ -120,18 +123,22 @@ p {
 }
 
 .contact-container button {
-  color: white;
   background-color: #85c3d7;
-  line-height: 30px;
   width: 300px;
   font-size: 18px;
   margin-bottom: 20px;
-  border: none;
 }
 
 .contact-container button a {
   text-decoration: none;
 }
+
+.testimonial-rows {
+  margin-top: 20px;
+  align-items: center;
+}
+
+/*footer css*/
 
 footer p {
   text-align: center;
@@ -184,7 +191,22 @@ footer p {
   height: 25px;
 }
 
-/*About css*/
+.footer-links {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-links a {
+  width: 85px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+small {
+  font-size: 12px;
+}
+
+/*about css*/
 
 .about-page {
   text-align: center;
@@ -192,7 +214,7 @@ footer p {
 
 .about-page h1 {
   font-size: 55px;
-  width: 25%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -203,7 +225,6 @@ footer p {
 
 .about-title {
   padding-top: 20px;
-  font-size: 40px;
 }
 
 .headshot {
@@ -217,7 +238,7 @@ footer p {
   margin: 0 auto;
 }
 
-/*Services page*/
+/*services page*/
 
 .services-page {
   text-align: center;
@@ -227,50 +248,34 @@ footer p {
   font-size: 1.1rem;
 }
 
-/* .services-first-image, .services-second-image  {
-  width: 70%;
-  border-radius: 5px;
-  margin-top: 20px;
-} */
-
 .row {
   margin-bottom: 15px;
 }
 
-.form-row {
-  margin-top: 15px;
+.services-rates {
+  margin-bottom: 20px;
 }
 
-form {
-  color: #ffffff;
+.card-title {
+  font-size: 20px;
 }
 
-.form-heading {
-  align-items: center;
-  width: 50%;
+.first-services-imgs img {
+  margin-top: 30px;
+  border-radius: 10px;
 }
+
+.services-page h2 {
+  margin-top: 30px;
+}
+
+/* form css */
 
 .form-group {
   text-align: left;
   color: #ffffff;
   padding: 15px;
   display: inline-block;
-}
-
-.form-row span {
-  color: white;
-}
-
-.message {
-  height: 50px;
-}
-
-.services-page > h2 {
-  margin-top: 20px;
-}
-
-.services-rates {
-  margin-bottom: 20px;
 }
 
 form {
@@ -281,73 +286,7 @@ form input {
   display: inline-block;
 }
 
-.card-title {
-  font-size: 20px;
-}
-
-.navbar .navbar-nav .nav-link {
-  color: #FFFFFF;
-  font-size: 1.1em;
-}
-.navbar .navbar-nav .nav-link:hover {
-  color: #FFFFFF;
-}
-.navbar .navbar-nav .nav-item {
-  position: relative;
-}
-.navbar .navbar-nav .nav-item::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #FFFFFF;
-  width: 0%;
-  content: "";
-  height: 2px;
-  transition: all 0.5s;
-}
-
-.navbar .navbar-nav .nav-item:hover::after {
-  width: 100%;
-}
-
-.testimonial-rows {
-  margin-top: 20px;
-  align-items: center;
-}
-
-.footer-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-.footer-links a {
-  width: 85px;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-small {
-  font-size: 12px;
-}
-
-.first-services-imgs img {
-  display: inline-block;
-  /* width: 30%; */
-  margin-top: 30px;
-  border-radius: 10px;
-}
-
-.first-services-imgs p {
-  margin: 0 auto;
-}
-
-.services-page h2 {
-  margin-top: 30px;
-}
+/* TEST  */
 
 * {
   outline: 1px solid red;
