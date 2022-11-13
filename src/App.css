@@ -3,7 +3,7 @@
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.2rem;
   padding: 0 10px;
 }
 
@@ -224,7 +224,7 @@ footer p {
 }
 
 .card-text {
-  font-size: 15px;
+  font-size: 1.1rem;
 }
 
 /* .services-first-image, .services-second-image  {
@@ -241,9 +241,28 @@ footer p {
   margin-top: 15px;
 }
 
-.form-group label {
+form {
+  color: #ffffff;
+}
+
+.form-heading {
+  align-items: center;
+  width: 50%;
+}
+
+.form-group {
   text-align: left;
   color: #ffffff;
+  padding: 15px;
+  display: inline-block;
+}
+
+.form-row span {
+  color: white;
+}
+
+.message {
+  height: 50px;
 }
 
 .services-page > h2 {
@@ -323,7 +342,6 @@ small {
 }
 
 .first-services-imgs p {
-  /* width: 50%; */
   margin: 0 auto;
 }
 
@@ -331,7 +349,7 @@ small {
   margin-top: 30px;
 }
 
-/* * {
+* {
   outline: 1px solid red;
   outline-offset: -1px;
-} */
+}
