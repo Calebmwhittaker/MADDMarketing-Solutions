@@ -21,10 +21,10 @@ const Home = () => {
         </p>
         </div>
         <div className="services-container">
-        <h2 className='pt-4'>Our services</h2>
+        <h2 className='pt-4 text-light'>Our services</h2>
         <Grid />
         <div className="learnMore">
-        <button className="btn">
+        <button>
             <a 
               href="https://www.maddmarketingsolutions.com/services"
               target="_blank"

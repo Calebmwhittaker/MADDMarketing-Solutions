@@ -4,15 +4,10 @@
   font-family: Tahoma;
 }
 
-/* body {
-  overflow-x: hidden;
-} */
-
 p {
   font-size: 20px;
   padding: 0 10px;
   text-align: center;
-
 }
 
 h2 {
@@ -95,7 +90,7 @@ header {
 }
 
 .services-container {
-  background-color: rgb(197, 197, 197);
+  background-color: #355C7E;
   text-align: center;
 }
 
@@ -111,13 +106,33 @@ a:visited, a:link {
 .learnMore button a {
   color: white;
   text-decoration: none;
+  display: inline-block;
+  width: 120px;
+  margin: -10px -8px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  transition: 0.15s ease-in-out 0.1s;
+}
+
+.learnMore button a:hover {
+  color: black;
 }
 
 .learnMore button {
   background-color: black;
   font-size: 18px;
-  margin: 20px 0;
-  text-shadow: 1px 1px 1px grey;
+  margin: 20px;
+  color: white;
+  padding: 8px 6px;
+  width: inherit;
+  border-radius: 10px;
+  transition: 0.15s ease-in-out 0.1s;
+}
+
+.learnMore button:hover {
+  background-color: white;
+  color: black;
 }
 
 .contact-container {
@@ -223,7 +238,6 @@ small {
 }
 
 .about-page p {
-  /* width: 60%; */
   margin: 20px auto;
 }
 
@@ -246,6 +260,10 @@ small {
 
 .services-page {
   text-align: center;
+}
+
+.services p {
+  color: white;
 }
 
 .card-text {
@@ -292,7 +310,7 @@ form input {
 
 /* TEST  */
 
-* {
+/* * {
   outline: 1px solid red;
   outline-offset: -1px;
-}
+} */
