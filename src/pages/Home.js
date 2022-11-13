@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from '../components/Carousel';
 import Footer from '../components/Footer';
 import Grid from '../components/Grid';
 import Testimonials from '../components/Testimonials';
@@ -10,6 +11,7 @@ const Home = () => {
       <div className="main-title">
         <h1>MaddMarketing Solutions</h1>
       </div>
+      <Carousel />
       <main>
         <div className="home-approach">
         <h2>Our approach</h2>
@@ -19,7 +21,7 @@ const Home = () => {
         </p>
         </div>
         <div className="services-container">
-        <h2>Our services</h2>
+        <h2 className='pt-4'>Our services</h2>
         <Grid />
         <div className="learnMore">
         <button className="btn">

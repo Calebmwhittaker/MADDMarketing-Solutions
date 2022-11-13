@@ -3,7 +3,7 @@ import React from 'react'
 export default function Grid() {
   return (
     <div className='services'>
-        <div className="row">
+        <div className="row col-12">
   <div className="col col-lg-6 col-xl-3">
   <img className="my-4" src="computer_image.png" alt="Website Design"></img>
             <p>Website Design</p>

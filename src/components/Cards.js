@@ -3,7 +3,7 @@ import React from 'react'
 export default function Cards() {
   return (
     <div>
-        <div className="row">
+        <div className="row col-12">
             <div className="card col-sm-6 col-lg-3">
               <img src="consultation-stock-photo.jpg" className="card-img-top" alt="consultation"></img>
               <div className="card-body">

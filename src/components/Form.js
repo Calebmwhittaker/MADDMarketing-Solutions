@@ -11,11 +11,11 @@ export default function Form() {
   </div>
   </div>
 <div className='form-row'>
-    <div className="form-group col-5">
+    <div className="form-group col-6">
       <label htmlFor="inputName">First Name*</label>
       <input type="text" className="form-control" id="inputName" placeholder="First Name" autoComplete="off"></input>
     </div>
-    <div className="form-group col-5">
+    <div className="form-group col-6">
       <label htmlFor="inputName">Last Name*</label>
       <input type="text" className="form-control" id="inputName2" placeholder="Last Name" autoComplete="off"></input>
     </div>
