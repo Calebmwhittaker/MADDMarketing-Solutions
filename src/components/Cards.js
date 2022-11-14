@@ -3,8 +3,8 @@ import React from 'react'
 export default function Cards() {
   return (
     <div>
-        <div className="row col-12">
-            <div className="card col-sm-6 col-lg-3">
+        <div className="cards row col-12">
+            <div className="services-cards card col-sm-6 col-lg-3 px-0" id="consultation-card">
               <img src="consultation-stock-photo.jpg" className="card-img-top" alt="consultation"></img>
               <div className="card-body">
                 <p className="card-title">Consultation</p>
@@ -13,7 +13,7 @@ export default function Cards() {
                 <p className="card-text">60 mins |  $100  </p>
               </div>
             </div>
-            <div className="card col-sm-6 col-lg-3">
+            <div className="card col-sm-6 col-lg-3 px-0">
               <img src="web-design-stock-photo.jpg" className="card-img-top" alt="web design"></img>
               <div className="card-body">
                 <p className="card-title">Web Design</p>
@@ -22,7 +22,7 @@ export default function Cards() {
                 <p className="card-text">20 hours of work |  $700+ </p>
               </div>
             </div>
-            <div className="card col-sm-6 col-lg-3">
+            <div className="card col-sm-6 col-lg-3 px-0">
               <img src="social-media-stock-photo.jpg" className="card-img-top" alt="web design"></img>
               <div className="card-body">
                 <p className="card-title">Social Media</p>
@@ -31,7 +31,7 @@ export default function Cards() {
                 <p className="card-text">Monthly |  Starting at $350+</p>
               </div>
             </div>
-            <div className="card col-sm-6 col-lg-3">
+            <div className="services-cards card col-sm-6 col-lg-3 px-0" id="coaching-card">
               <img src="coaching-stock-photo.jpg" className="card-img-top" alt="web design"></img>
               <div className="card-body">
                 <p className="card-title">Coaching</p>

@@ -256,6 +256,20 @@ small {
 
 /*services page*/
 
+.cards {
+  margin: 0 auto;
+}
+
+.cards img {
+  border-radius: 5px;
+  padding: 1px;
+}
+
+.services-cards img {
+  display: inline-block;
+}
+
+
 .services-page {
   text-align: center;
 }
@@ -304,6 +318,13 @@ form {
 
 form input {
   display: inline-block;
+}
+
+/* Blog css*/
+.blog-page img {
+  padding: 2px;
+  border-radius: 10px;
+  /* margin: 0 auto; */
 }
 
 /* TEST  */
