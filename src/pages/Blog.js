@@ -4,10 +4,12 @@ import Footer from "../components/Footer";
 const Blog = () => {
     return (
         <>
-            <div className="blog-page">
-                <BlogCards />
-            </div>
-            <hr className="w-75 m-auto my-5"></hr>
+            <main>
+                <section className="blog-page">
+                    <BlogCards />
+                </section>
+                <hr className="w-75 m-auto my-5"></hr>
+            </main>
             <Footer />
         </>
     );

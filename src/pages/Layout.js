@@ -62,7 +62,6 @@ const Layout = () => {
           </div>
         </nav>
       </header>
-
       <Outlet />
     </>
   );
