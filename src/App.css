@@ -1,5 +1,9 @@
 /*all css*/
 
+html {
+  box-sizing: border-box;
+}
+
 * {
   font-family: Tahoma;
 }
@@ -322,14 +326,16 @@ form input {
 
 /* Blog css*/
 .blog-page img {
-  padding: 2px;
   border-radius: 10px;
-  /* margin: 0 auto; */
+}
+
+.blog div {
+  margin: 0 auto;
 }
 
 /* TEST  */
 
-/* * {
+* {
   outline: 1px solid red;
   outline-offset: -1px;
-} */
+}
