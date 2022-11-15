@@ -12,7 +12,6 @@ const About = () => {
         <hr className='about-bottom-border'></hr>
         </main>
         <Footer />
-
     </>
     );
 };
