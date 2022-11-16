@@ -1,5 +1,5 @@
 {
-  "name": "Maddmarketing-app",
+  "name": "maddmarketing-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,7 +29,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:jsx-a11y/recommended"
     ]
   },
   "browserslist": {
@@ -45,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
     "react-router-dom": "^6.4.2"
   }
 }
