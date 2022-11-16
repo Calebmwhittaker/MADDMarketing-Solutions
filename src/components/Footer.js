@@ -17,16 +17,14 @@ export default function Footer() {
           </div>
         <div className="footer-links">
         <a
-          href="https://www.maddmarketingsolutions.com/contact"
+          href="/contact"
           target="_blank"
           rel="noreferrer"
         >
           Contact us
         </a>
         <a
-          href="https://www.maddmarketingsolutions.com/services"
-          target="_blank"
-          rel="noreferrer"
+          href="/services"
         >
           Services
         </a>

@@ -21,15 +21,13 @@ export default function Grid() {
             <p>Coaching</p>
           </div>
           <div className="learnMore col-12 py-3">
-            <button className='btn btn-dark'>
-              <a 
-                href="https://www.maddmarketingsolutions.com/services"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Our Services
-              </a>
-            </button>
+            <a 
+                  href="https://www.maddmarketingsolutions.com/services"
+                  target="_blank"
+                  rel="noreferrer"
+            >
+              <button type="button" className='btn btn-dark'>Our Services</button>
+            </a>
           </div>
         </div>
     </div>

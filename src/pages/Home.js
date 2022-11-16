@@ -29,7 +29,9 @@ const Home = () => {
         <Testimonials />
         <article className="contact-container">
             <h2>Get started with MaddMarketing today!</h2>
-            <button className='btn btn-dark'><a href="https://www.maddmarketingsolutions.com/contact" target="_blank" rel="noreferrer">Contact Us</a></button>
+            <a href="https://www.maddmarketingsolutions.com/contact" target="_blank" rel="noreferrer">
+              <button className='btn btn-dark'>Contact Us</button>
+            </a>
         </article>
         </section>
       </main>
