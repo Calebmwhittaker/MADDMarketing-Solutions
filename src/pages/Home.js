@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer';
 import Grid from '../components/Grid';
 import Testimonials from '../components/Testimonials';
+import { Outlet, Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -29,13 +30,14 @@ const Home = () => {
         <Testimonials />
         <article className="contact-container">
             <h2>Get started with MaddMarketing today!</h2>
-            <a href="https://www.maddmarketingsolutions.com/contact" target="_blank" rel="noreferrer">
+            <Link to="/contact" className="nav-link" href="#">
               <button className='btn btn-dark'>Contact Us</button>
-            </a>
+            </Link>
         </article>
         </section>
       </main>
       <Footer />
+      <Outlet />
     </>
   );
 };

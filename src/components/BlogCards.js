@@ -9,7 +9,7 @@ export default function BlogCards() {
                     href='https://www.maddmarketingsolutions.com/blog/why-you-need-a-digital-marketer'
                     target="_blank"
                     rel="noreferrer">
-                <img className="my-4 w-100" src="blog-photo-1.jpg" alt="Website Design"></img>
+                <img className="my-4 w-100" src="blog-photo-1.webp" alt="Website Design"></img>
                 </a>
                 <p>Digital Marketing 8/11/22</p>
                 <h1>Why you need a digital marketer on your team</h1>
@@ -19,7 +19,7 @@ export default function BlogCards() {
                     href='https://www.maddmarketingsolutions.com/blog/become-a-storyteller'
                     target="_blank"
                     rel="noreferrer">
-                <img className="my-4 w-100" src="blog-photo-2.jpg" width="400px" alt="Social Media"></img>
+                <img className="my-4 w-100" src="blog-photo-2.webp" width="400px" alt="Social Media"></img>
                 </a>
                 <p>Digital Marketing 7/27/22</p>
                 <h1>Become a storyteller! Use video to grow your audience.</h1>
@@ -29,7 +29,7 @@ export default function BlogCards() {
                     href='https://www.maddmarketingsolutions.com/blog/what-is-digital-marketing-how-to-use-online-tools-for-customer-growth'
                     target="_blank"
                     rel="noreferrer">
-                <img className="my-4 w-100" src="blog-photo-3.jpg" width="400px" alt="Social Media"></img>
+                <img className="my-4 w-100" src="blog-photo-3.webp" width="400px" alt="Social Media"></img>
                 </a>
                 <p>Digital Marketing 7/15/22</p>
                 <h1>What is Digital Marketing? How to use online tools for customer growth.</h1>

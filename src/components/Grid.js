@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, Outlet } from 'react-router-dom'
 
 export default function Grid() {
   return (
@@ -21,15 +22,12 @@ export default function Grid() {
             <p>Coaching</p>
           </div>
           <div className="learnMore col-12 py-3">
-            <a 
-                  href="https://www.maddmarketingsolutions.com/services"
-                  target="_blank"
-                  rel="noreferrer"
-            >
+          <Link to="/services" className="nav-link" href="#">
               <button type="button" className='btn btn-dark'>Our Services</button>
-            </a>
+          </Link>
           </div>
         </div>
+        <Outlet />
     </div>
   )
 }
