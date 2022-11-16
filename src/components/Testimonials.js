@@ -6,7 +6,7 @@ export default function Testimonials() {
         <div className="container">
             <div className=" testimonial-rows row text-center">
                 <div className="col-md-4 col-lg-3 col-xl-2">
-                    <img className="testimonial-img py-2 pr-1" src="DIGCafe.png" width="180px" alt="Dig Cafe Logo"></img>
+                    <img className="testimonial-img py-2 pr-1" src="DIGCafe.webp" width="180px" alt="Dig Cafe Logo"></img>
                 </div>
                 <div className='col-md-8 col-lg-9 col-xl-10'>
                     <p>
@@ -23,7 +23,7 @@ export default function Testimonials() {
                 </div>
             <div className="testimonial-rows row">
                 <div className="col-md-4 col-lg-3 col-xl-2 text-center ">
-                        <img className="testimonial-img rounded-circle py-4" src="TLD.png" width="160px" alt="TLD Holdings Logo"></img>
+                        <img className="testimonial-img rounded-circle py-4" src="TLD.webp" width="160px" alt="TLD Holdings Logo"></img>
                 </div>
                 <div className="col-md-8 col-lg-9 col-xl-10">
                         <p>
@@ -42,7 +42,7 @@ export default function Testimonials() {
             </div>
             <div className="testimonial-rows row">
             <div className="col-md-4 col-lg-3 col-xl-2 text-center">
-                    <img src="THLogo.png" width="160px" alt="Total Health Logo" className="testimonial-img rounded-circle py-4"></img>
+                    <img src="THLogo.webp" width="160px" alt="Total Health Logo" className="testimonial-img rounded-circle py-4"></img>
                 </div>
                 <div className='col-md-8 col-lg-9 col-xl-10'>
                     <p>

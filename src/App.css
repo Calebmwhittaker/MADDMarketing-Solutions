@@ -25,6 +25,7 @@ h2 {
 .logo {
   position: fixed;
   top: -20px;
+  left: 5px;
   width: 100px;
   z-index: 10000;
 }
@@ -125,9 +126,10 @@ a:visited, a:link {
   background-color: #85c3d7;
   font-size: 18px;
   margin: 20px;
-  padding: 0;
+  padding: 5px;
   border: none;
   box-shadow: 1px 1px 1px #000000;
+  color: black;
 }
 
 .learnMore button:hover {
@@ -147,7 +149,8 @@ a:visited, a:link {
   font-size: 18px;
   margin-bottom: 20px;
   box-shadow: 1px 1px 1px #000000;
-  padding: 0;
+  padding: 5px;
+  color: black;
 }
 
 .contact-container button:hover {
