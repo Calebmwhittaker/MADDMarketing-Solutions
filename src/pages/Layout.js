@@ -9,7 +9,7 @@ const Layout = () => {
         rel="noreferrer"
         aria-label="MaddMarketing Solutions"
       >
-        <img className="logo" src="MADDMkt_Logo.webp" alt=""></img>
+        <img className="logo" src="MADDMkt_Logo-min.webp" alt=""></img>
       </a>
       <header className="sticky-top">
         <nav className="navbar navbar-expand-sm navbar-dark">

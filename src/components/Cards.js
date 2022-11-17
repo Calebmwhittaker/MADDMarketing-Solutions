@@ -8,7 +8,7 @@ export default function Cards() {
         <Card
           title="Consultation"
           imageAltText="Consultation"
-          imageSrc="/consultation-stock-photo.webp"
+          imageSrc="/consultation-stock-photo-min.webp"
           cardId="consultation-card"
         >
           <p>
@@ -21,7 +21,7 @@ export default function Cards() {
         <Card
           title="Web Design"
           imageAltText="Web Design"
-          imageSrc="/web-design-stock-photo.webp"
+          imageSrc="/web-design-stock-photo-min.webp"
           cardId="web-design-card"
         >
           <p>
@@ -36,7 +36,7 @@ export default function Cards() {
         <Card
           title="Social Media"
           imageAltText="Social Media"
-          imageSrc="/social-media-stock-photo.webp"
+          imageSrc="/social-media-stock-photo-min.webp"
           cardId="social-media-card"
         >
           <p>
@@ -49,7 +49,7 @@ export default function Cards() {
         <Card
           title="Coaching"
           imageAltText="Coaching"
-          imageSrc="/coaching-stock-photo.webp"
+          imageSrc="/coaching-stock-photo-min.webp"
           cardId="coaching-card"
         >
           <p>

@@ -32,7 +32,7 @@ const Home = () => {
             <h2>Get started with MaddMarketing today!</h2>
             <Link
               to="/contact"
-              className="contact-us-button nav-link btn d-inline-block w-50 mb-3"
+              className="contact-us-button nav-link btn d-inline-block mb-3"
               href="#"
             >
               Contact Us

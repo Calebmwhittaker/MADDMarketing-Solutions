@@ -113,39 +113,21 @@ a:visited, a:link {
   color: #000000;
 }
 
-.learnMore button a {
+.services-button {
   color: #000000;
-  text-decoration: none;
-  display: inline-block;
-  width: 121px;
-  border-radius: 5px;
-  line-height: 38px;
-}
-
-.learnMore button {
   background-color: #85c3d7;
-  font-size: 18px;
-  margin: 20px;
-  padding: 5px;
-  border: none;
-  box-shadow: 1px 1px 1px #000000;
-  color: black;
+  line-height: 38px;
+  width: 10%;
 }
 
-
+.services-button:hover {
+  background-color: #50b9f7;
+}
 
 .contact-container {
   background-color: #355C7E;
   color: #ffffff;
   text-align: center;
-}
-
-.contact-container button a {
-  text-decoration: none;
-  line-height: 38px;
-  display: inline-block;
-  padding-bottom: 2px;
-  width: 300px;
 }
 
 .testimonial-rows {
@@ -155,10 +137,13 @@ a:visited, a:link {
 
 .contact-us-button {
   background-color: #85c3d7;
+  line-height: 38px;
+  width: 25%;
 }
 
 .contact-us-button:hover {
-  background-color: #999999
+  color: #000000;
+  background-color: #50b9f7
 }
 /*footer css*/
 

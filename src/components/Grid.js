@@ -34,7 +34,7 @@ export default function Grid() {
         <div className="learnMore col-12 py-3">
           <Link
             to="/services"
-            className="services-button nav-link btn w-50 d-inline-block"
+            className="services-button nav-link btn d-inline-block"
             href="#"
           >
             Our Services
