@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Cards() {
   return (
-    <div>
+    <div className="services-page-cards">
       <div className="cards row col-12">
         <Card
           title="Consultation"

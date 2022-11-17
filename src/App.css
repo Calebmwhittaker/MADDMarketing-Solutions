@@ -264,6 +264,10 @@ small {
   text-align: center;
 }
 
+/* .services-page-cards div {
+  margin: 5px;
+} */
+
 .services p {
   color: #ffffff;
 }
@@ -325,7 +329,7 @@ form input {
 
 /* TEST  */
 
-/* * {
+* {
   outline: 1px solid red;
   outline-offset: -1px;
-} */
+}
