@@ -132,29 +132,12 @@ a:visited, a:link {
   color: black;
 }
 
-.learnMore button:hover {
-  background-color: #999999;
-  color: #ffffff;
-}
+
 
 .contact-container {
   background-color: #355C7E;
   color: #ffffff;
   text-align: center;
-}
-
-.contact-container button {
-  background-color: #85c3d7;
-  width: 300px;
-  font-size: 18px;
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 1px #000000;
-  padding: 5px;
-  color: black;
-}
-
-.contact-container button:hover {
-  background-color: #999999;
 }
 
 .contact-container button a {
@@ -170,6 +153,13 @@ a:visited, a:link {
   align-items: center;
 }
 
+.contact-us-button {
+  background-color: #85c3d7;
+}
+
+.contact-us-button:hover {
+  background-color: #999999
+}
 /*footer css*/
 
 footer p {
@@ -333,6 +323,10 @@ form {
 
 form input {
   display: inline-block;
+}
+
+.message {
+  height: 20vh;
 }
 
 /* Blog css*/
