@@ -1,12 +1,12 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Layout from './pages/Layout';
-import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
-import Services from './pages/Services';
-import NoPage from './pages/NoPage';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import Services from "./pages/Services";
+import NoPage from "./pages/NoPage";
 
 function App() {
   return (
