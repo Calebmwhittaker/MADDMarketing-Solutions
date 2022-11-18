@@ -82,6 +82,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient( #355c7e, #000000);
 }
 
 .home-approach {
@@ -91,7 +92,7 @@ header {
 .main-title h1 {
   text-align: center;
   color: #ffffff;
-  font-size: 60px;
+  font-size: 80px;
 }
 
 .services-container {
@@ -118,7 +119,7 @@ a:link {
   color: #000000;
   background-color: #85c3d7;
   line-height: 38px;
-  width: 10%;
+  width: 100px
 }
 
 .services-button:hover {
