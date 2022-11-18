@@ -92,7 +92,7 @@ header {
 .main-title h1 {
   text-align: center;
   color: #ffffff;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .services-container {
@@ -233,10 +233,6 @@ small {
 
 .about-title {
   padding-top: 20px;
-}
-
-.headshot {
-  width: 50%;
 }
 
 .about-bottom-border {

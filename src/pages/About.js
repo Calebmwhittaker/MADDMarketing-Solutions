@@ -15,6 +15,7 @@ const About = () => {
             className="headshot mb-4 rounded-circle"
             src="/headshot.webp"
             alt="Owner of MaddMarketing Solutions"
+            width="300px"
           ></img>
           <p className="col-12 col-md-8">
             We were founded by Maddison Godi, who was raised by entrepreneurs.
