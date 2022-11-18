@@ -8,7 +8,10 @@ export default function ServiceCard({
   children,
 }) {
   return (
-    <div className="services-cards card col-sm-6 col-lg-3 px-0" id={cardId}>
+    <div
+      className="services-cards card col-sm-12 col-md-5 px-0 mx-auto my-3"
+      id={cardId}
+    >
       <img src={imageSrc} className="card-img-top" alt={imageAltText}></img>
       <div className="card-body">
         <p className="card-title">{title}</p>

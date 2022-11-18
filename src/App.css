@@ -327,6 +327,25 @@ form input {
   margin: 0 auto;
 }
 
+/*Contact css*/
+.contact-page {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.contact-icon-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 10px auto;
+}
+
+/*No Page css*/
+.noPage-page {
+  margin: 10px auto;
+  text-align: center;
+}
+
 /* TEST  */
 
 /* * {

@@ -21,7 +21,7 @@ export default function ServiceCards() {
               through websites and social media.
             </p>
           </div>
-          <div className="col col-12">
+          <div className="col col-12 mx-1">
             <img
               className="services-second-image"
               src="services-second-stock-photo-min.webp"
