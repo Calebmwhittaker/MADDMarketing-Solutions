@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import Videos from "../components/Videos";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
             provides innovative marketing solutions to small businesses.
           </p>
           <img
-            className="headshot mb-4"
+            className="headshot mb-4 rounded-circle"
             src="/headshot.webp"
             alt="Owner of MaddMarketing Solutions"
           ></img>
@@ -26,8 +27,15 @@ const About = () => {
             one goal in mind: helping you build an incredible brand that can
             thrive in today's webosphere.
           </p>
-          <hr className="about-bottom-border"></hr>
         </section>
+        <section>
+          <Videos />
+          <p>
+            Check out our first video on Youtube to learn more about our
+            founder, Maddison Godi
+          </p>
+        </section>
+        <hr className="about-bottom-border"></hr>
       </main>
       <Footer />
     </>
