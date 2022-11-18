@@ -1,5 +1,4 @@
 import Footer from "../components/Footer";
-import Videos from "../components/Videos";
 
 const About = () => {
   return (
@@ -26,13 +25,6 @@ const About = () => {
             We offer website design, social media, strategy, and more—all with
             one goal in mind: helping you build an incredible brand that can
             thrive in today's webosphere.
-          </p>
-        </section>
-        <section>
-          <Videos />
-          <p>
-            Check out our first video on Youtube to learn more about our
-            founder, Maddison Godi
           </p>
         </section>
         <hr className="about-bottom-border"></hr>
