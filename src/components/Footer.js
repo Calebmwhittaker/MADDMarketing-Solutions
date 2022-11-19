@@ -10,10 +10,7 @@ export default function Footer() {
   return (
     <div>
       <footer>
-        <br></br>
         <p>Stay in touch!</p>
-        <br></br>
-        <br></br>
         <div className="icon-links">
           <a
             href="https://www.facebook.com/maddmkt"

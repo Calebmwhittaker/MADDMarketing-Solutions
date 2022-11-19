@@ -6,13 +6,13 @@ const NoPage = () => {
   return (
     <div className="noPage-page">
       <h1>404 Error</h1>
-      <img src="ferret.png" alt="Ferret" className="w-50"></img>
+      <img src="ferret.png" alt="Ferret" className="ferret w-50"></img>
       <h2>Oops! This page does not exist.</h2>
       <Link
         to="/"
         aria-current="page"
         href="#"
-        className="btn btn-dark text-light"
+        className="btn btn-dark text-light mt-4"
       >
         Go Home
       </Link>

@@ -1,42 +1,71 @@
 import React from "react";
+import ServiceCard from "./ServiceCard";
 
 export default function ServiceCards() {
   return (
-    <div>
-      <div className="container">
-        <div className="row">
-          <div className="col col-12">
-            <img
-              className="services-first-image"
-              src="services-first-stock-photo-min.webp"
-              width="400px"
-              alt=""
-            ></img>
-            <h2>Grow your business</h2>
-            <p>
-              Having a presence online today is crucial. When your business is
-              online, it makes it much easier for customers to find you. Most
-              people turn to the internet when searching for a product or
-              service. We help you grow your audience by being accessible online
-              through websites and social media.
-            </p>
-          </div>
-          <div className="col col-12 mx-1">
-            <img
-              className="services-second-image"
-              src="services-second-stock-photo-min.webp"
-              width="400px"
-              alt=""
-            ></img>
-            <h2>Keep customers involved</h2>
-            <p>
-              It’s essential for businesses to share information with current
-              and future customers. They want to know your story, view new
-              products, and keep in touch for a more personalized experience.{" "}
-            </p>
-          </div>
-        </div>
+    <div className="services-page-cards">
+      <div className="cards row col-12">
+        <ServiceCard
+          title="Consultation"
+          imageAltText="Consultation"
+          imageSrc="/consultation-stock-photo-min.webp"
+          cardId="consultation-card"
+        >
+          <p>
+            Online or in-person, this is designated for you to share your goals
+            for your business and give us the chance to learn more about you.{" "}
+          </p>
+          <p>*Needed for all new clients</p>
+          <p>60 mins | $100 </p>
+        </ServiceCard>
+        <ServiceCard
+          title="Web Design"
+          imageAltText="Web Design"
+          imageSrc="/web-design-stock-photo-min.webp"
+          cardId="web-design-card"
+        >
+          <p>
+            We can start from scratch or improve your current website design.
+            After your consultation, we will design the website that is right
+            for your business. Once it is completed you have the option to learn
+            how to edit your website.{" "}
+          </p>
+          <p>*Monthly maintenance subscription is available upon request </p>
+          <p> 20 hours of work | $700+ </p>
+        </ServiceCard>
+        <ServiceCard
+          title="Social Media"
+          imageAltText="Social Media"
+          imageSrc="/social-media-stock-photo-min.webp"
+          cardId="social-media-card"
+        >
+          <p>
+            Stay consistent and grow your audience on social platforms. We offer
+            monthly packages to help your business stand out in the webosphere.{" "}
+          </p>
+          <p>*Monthly maintenance subscription is available upon request </p>
+          <p>Monthly | Starting at $350+</p>
+        </ServiceCard>
+        <ServiceCard
+          title="Coaching"
+          imageAltText="Coaching"
+          imageSrc="/coaching-stock-photo-min.webp"
+          cardId="coaching-card"
+        >
+          <p>
+            Has your online presence begun to plateau? We are here to help!
+            Schedule a day with us to meet your team and strategize your future
+            online.
+          </p>
+          <p> One Day Coaching Seminar | $1,000 </p>
+        </ServiceCard>
       </div>
+      <p>
+        *The consultation fee is a one-time fee billed within the first month.
+        Additional meetings will be assessed and billed accordingly.{" "}
+      </p>
+      <p>*Please reach out with any questions or concerns. </p>
+      <hr className="w-75 m-auto"></hr>
     </div>
   );
 }

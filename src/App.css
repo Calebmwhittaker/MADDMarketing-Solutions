@@ -152,6 +152,8 @@ a:link {
 footer p {
   text-align: center;
   font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 60px;
 }
 
 .footer-links {
@@ -260,10 +262,6 @@ small {
   text-align: center;
 }
 
-/* .services-page-cards div {
-  margin: 5px;
-} */
-
 .services p {
   color: #ffffff;
 }
@@ -340,6 +338,10 @@ form input {
 .noPage-page {
   margin: 10px auto;
   text-align: center;
+}
+
+.ferret {
+  margin-left: -15%;
 }
 
 /* TEST  */
