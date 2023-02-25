@@ -92,7 +92,13 @@ header {
 .main-title h1 {
   text-align: center;
   color: #ffffff;
-  font-size: 70px;
+  font-size: 50px;
+}
+
+@media (min-width: 800px) {
+  .main-title h1 {
+    font-size: 70px;
+  }
 }
 
 .services-container {
@@ -346,7 +352,7 @@ form input {
 
 /* TEST  */
 
-/* * {
+* {
   outline: 1px solid red;
   outline-offset: -1px;
-} */
+}
