@@ -10,7 +10,10 @@ export default function Testimonial({
   return (
     <div>
       <div className=" testimonial-rows row text-center">
-        <div className="col-md-4 col-lg-3 col-xl-2">
+        <div
+          style={{ marginBottom: "25px" }}
+          className="col-md-4 col-lg-3 col-xl-2"
+        >
           <img
             className={className}
             src={imageSrc}
