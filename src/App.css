@@ -23,11 +23,10 @@ h2 {
 /*nav css*/
 
 .logo {
-  position: fixed;
+  position: absolute;
   top: -20px;
   left: 5px;
   width: 100px;
-  z-index: 10000;
 }
 
 .collapse {
@@ -45,6 +44,7 @@ h2 {
 
 header {
   background-color: #355c7e;
+  overflow: hidden;
 }
 
 .navbar .navbar-nav .nav-link {

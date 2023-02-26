@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 export default function ServiceCards() {
   return (
     <div className="services-page-cards">
-      <div className="cards row col-12">
+      <div className="cards row col-12 m-0">
         <ServiceCard
           title="Consultation"
           imageAltText="Consultation"

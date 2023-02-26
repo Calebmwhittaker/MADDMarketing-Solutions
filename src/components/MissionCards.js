@@ -20,7 +20,7 @@ export default function MissionCards() {
               through websites and social media.
             </p>
           </div>
-          <div className="col col-12 mx-1">
+          <div className="col col-12">
             <img
               className="services-second-image"
               src="services-second-stock-photo-min.webp"

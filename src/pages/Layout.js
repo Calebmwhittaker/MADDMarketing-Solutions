@@ -2,18 +2,18 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <>
-      <a
-        href="https://www.maddmarketingsolutions.com/"
-        target="_blank"
-        rel="noreferrer"
-        aria-label="MaddMarketing Solutions"
-      >
-        <img className="logo" src="MADDMkt_Logo-min.webp" alt=""></img>
-      </a>
+    <div>
       <header className="sticky-top">
         <nav className="navbar navbar-expand-sm navbar-dark">
           <div className="container-fluid">
+            <a
+              href="https://www.maddmarketingsolutions.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="MaddMarketing Solutions"
+            >
+              <img className="logo" src="MADDMkt_Logo-min.webp" alt=""></img>
+            </a>
             <button
               className="navbar-toggler justify-content-end"
               type="button"
@@ -63,7 +63,7 @@ const Layout = () => {
         </nav>
       </header>
       <Outlet />
-    </>
+    </div>
   );
 };
 
