@@ -239,8 +239,17 @@ small {
   margin: 20px auto;
 }
 
-.about-title {
+.about-section .about-title {
   padding-top: 20px;
+  font-size: 45px;
+  width: fit-content;
+}
+
+@media (min-width: 800px) {
+  .about-section .about-title {
+    font-size: 60px;
+    margin-top: 20px;
+  }
 }
 
 .about-bottom-border {
@@ -258,6 +267,16 @@ small {
 .cards img {
   border-radius: 5px;
   padding: 1px;
+}
+
+.services-cards {
+  width: 300px
+}
+
+@media (min-width: 850px) {
+  .services-cards {
+    width: 600px
+  }
 }
 
 .services-cards img {
@@ -291,6 +310,14 @@ small {
 .first-services-imgs img {
   margin-top: 30px;
   border-radius: 10px;
+}
+
+.services-first-image {
+  width: 300px
+}
+
+.services-second-image {
+  width: 300px
 }
 
 .services-page h2 {

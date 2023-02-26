@@ -9,7 +9,6 @@ export default function MissionCards() {
             <img
               className="services-first-image"
               src="services-first-stock-photo-min.webp"
-              width="400px"
               alt=""
             ></img>
             <h2>Grow your business</h2>
