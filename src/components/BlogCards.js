@@ -1,14 +1,16 @@
 import React from "react";
 import BlogCard from "./BlogCard";
+import websiteDesign from "../assets/images/blog-photo-1-min.webp";
+import socialMedia from "../assets/images/blog-photo-2-min.webp";
+import onlineTools from "../assets/images/blog-photo-3-min.webp";
 
 export default function BlogCards() {
   return (
     <div className="blog">
-      <div className="row">
+      <div className="row m-0">
         <BlogCard
           link="https://www.maddmarketingsolutions.com/blog/why-you-need-a-digital-marketer"
-          imageSrc="blog-photo-1-min.webp"
-          imageWidth="300px"
+          imageSrc={websiteDesign}
           altText="Website Design"
         >
           <p>Digital Marketing 8/11/22</p>
@@ -16,8 +18,7 @@ export default function BlogCards() {
         </BlogCard>
         <BlogCard
           link="https://www.maddmarketingsolutions.com/blog/become-a-storyteller"
-          imageSrc="blog-photo-2-min.webp"
-          imageWidth="300px"
+          imageSrc={socialMedia}
           altText="Social Media"
         >
           <p>Digital Marketing 7/27/22</p>
@@ -25,9 +26,8 @@ export default function BlogCards() {
         </BlogCard>
         <BlogCard
           link="https://www.maddmarketingsolutions.com/blog/what-is-digital-marketing-how-to-use-online-tools-for-customer-growth"
-          imageSrc="blog-photo-3-min.webp"
-          imageWidth="300px"
-          altText="Social Media"
+          imageSrc={onlineTools}
+          altText="Online Tools"
         >
           <p>Digital Marketing 7/15/22</p>
           <h1>

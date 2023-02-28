@@ -1,17 +1,17 @@
 import BlogCards from "../components/BlogCards";
-import Footer from "../components/Footer";
+import Footer from "../parts/footer/Footer";
 
 const Blog = () => {
   return (
-    <>
+    <div className="blog-page-container">
       <main>
         <section className="blog-page">
           <BlogCards />
         </section>
-        <hr className="w-75 m-auto my-5"></hr>
+        <hr style={{ width: "75%", margin: "30px auto" }}></hr>
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

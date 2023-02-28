@@ -1,4 +1,6 @@
 import React from "react";
+import firstMission from "../assets/images/services-first-stock-photo-min.webp";
+import secondMission from "../assets/images/services-second-stock-photo-min.webp";
 
 export default function MissionCards() {
   return (
@@ -8,8 +10,13 @@ export default function MissionCards() {
           <div className="col col-12">
             <img
               className="services-first-image"
-              src="services-first-stock-photo-min.webp"
+              src={firstMission}
               alt=""
+              style={{
+                marginTop: "30px",
+                borderRadius: "10px",
+                width: "300px",
+              }}
             ></img>
             <h2>Grow your business</h2>
             <p>
@@ -23,9 +30,13 @@ export default function MissionCards() {
           <div className="col col-12">
             <img
               className="services-second-image"
-              src="services-second-stock-photo-min.webp"
-              width="400px"
+              src={secondMission}
               alt=""
+              style={{
+                marginTop: "30px",
+                borderRadius: "10px",
+                width: "300px",
+              }}
             ></img>
             <h2>Keep customers involved</h2>
             <p>

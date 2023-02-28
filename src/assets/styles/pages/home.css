@@ -1,0 +1,16 @@
+  @media (min-width: 800px) {
+    .main-title h1 {
+      font-size: 70px;
+    }
+  }
+  
+  .contact-us-button {
+    background-color: #85c3d7;
+    line-height: 38px;
+    width: 25%;
+  }
+  
+  .contact-us-button:hover {
+    color: #000000;
+    background-color: #50b9f7;
+  }

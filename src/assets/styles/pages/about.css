@@ -1,0 +1,10 @@
+p {
+    margin: 20px auto;
+  }
+
+  @media (min-width: 800px) {
+    .about-section .about-title {
+      font-size: 60px;
+      margin-top: 20px;
+    }
+  }

@@ -9,13 +9,23 @@ export default function ServiceCard({
 }) {
   return (
     <div
-      className="services-cards card col-sm-12 col-md-5 px-0 mx-auto my-3"
+      className="services-cards card col-sm-12 col-md-5"
+      style={{ width: "300px", padding: "0px", margin: "20px auto" }}
       id={cardId}
     >
-      <img src={imageSrc} className="card-img-top" alt={imageAltText}></img>
+      <img
+        src={imageSrc}
+        className="card-img-top"
+        style={{ display: "inline-block" }}
+        alt={imageAltText}
+      ></img>
       <div className="card-body">
-        <p className="card-title">{title}</p>
-        <div className="card-text">{children}</div>
+        <p className="card-title" style={{ fontSize: "20px" }}>
+          {title}
+        </p>
+        <div className="card-text" style={{ fontSize: "1.1rem" }}>
+          {children}
+        </div>
       </div>
     </div>
   );

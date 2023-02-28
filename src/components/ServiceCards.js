@@ -1,5 +1,9 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
+import consultation from "../assets/images/consultation-stock-photo-min.webp";
+import webDesign from "../assets/images/web-design-stock-photo-min.webp";
+import socialMedia from "../assets/images/social-media-stock-photo-min.webp";
+import coaching from "../assets/images/coaching-stock-photo-min.webp";
 
 export default function ServiceCards() {
   return (
@@ -8,7 +12,7 @@ export default function ServiceCards() {
         <ServiceCard
           title="Consultation"
           imageAltText="Consultation"
-          imageSrc="/consultation-stock-photo-min.webp"
+          imageSrc={consultation}
           cardId="consultation-card"
         >
           <p>
@@ -21,7 +25,7 @@ export default function ServiceCards() {
         <ServiceCard
           title="Web Design"
           imageAltText="Web Design"
-          imageSrc="/web-design-stock-photo-min.webp"
+          imageSrc={webDesign}
           cardId="web-design-card"
         >
           <p>
@@ -36,7 +40,7 @@ export default function ServiceCards() {
         <ServiceCard
           title="Social Media"
           imageAltText="Social Media"
-          imageSrc="/social-media-stock-photo-min.webp"
+          imageSrc={socialMedia}
           cardId="social-media-card"
         >
           <p>
@@ -49,7 +53,7 @@ export default function ServiceCards() {
         <ServiceCard
           title="Coaching"
           imageAltText="Coaching"
-          imageSrc="/coaching-stock-photo-min.webp"
+          imageSrc={coaching}
           cardId="coaching-card"
         >
           <p>
@@ -65,7 +69,13 @@ export default function ServiceCards() {
         Additional meetings will be assessed and billed accordingly.{" "}
       </p>
       <p>*Please reach out with any questions or concerns. </p>
-      <hr className="w-75 m-auto"></hr>
+      <hr
+        style={{
+          width: "75%",
+          border: "1px solid black",
+          margin: "30px auto",
+        }}
+      ></hr>
     </div>
   );
 }

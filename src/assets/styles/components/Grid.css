@@ -1,0 +1,26 @@
+.services p {
+    margin: auto 0;
+    font-size: 20px;
+    color: #ffffff
+  }
+
+  .col img {
+    width: 300px;
+    margin: 20px 0px
+  }
+  
+  a:visited,
+  a:link {
+    color: #000000;
+  }
+  
+  .services-button {
+    color: #000000;
+    background-color: #85c3d7;
+    line-height: 38px;
+    width: 100px
+  }
+  
+  .services-button:hover {
+    background-color: #50b9f7;
+  }

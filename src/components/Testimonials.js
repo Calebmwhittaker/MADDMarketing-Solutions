@@ -1,14 +1,18 @@
 import React from "react";
 import Testimonial from "./Testimonial";
+import DIGCafe from "../assets/images/DIGCafe-min.webp";
+import TLD from "../assets/images/TLD-min.webp";
+import TLH from "../assets/images/THLogo-min.webp";
 
 export default function Testimonials() {
   return (
     <div>
       <div className="container">
         <Testimonial
-          imageSrc="DIGCafe-min.webp"
-          imageWidth="180px"
+          imageSrc={DIGCafe}
           altText="DIGCafe"
+          className="my-1"
+          imageWidth="180px"
         >
           <p>
             Kennedy: Owner of{" "}
@@ -33,10 +37,10 @@ export default function Testimonials() {
           </p>
         </Testimonial>
         <Testimonial
-          imageSrc="TLD-min.webp"
-          imageWidth="160px"
+          imageSrc={TLD}
           altText="TLD Holdings"
           className="my-1"
+          imageWidth="160px"
         >
           <p>
             Andrea: President of{" "}
@@ -58,10 +62,10 @@ export default function Testimonials() {
           </p>
         </Testimonial>
         <Testimonial
-          imageSrc="THLogo-min.webp"
-          imageWidth="160px"
+          imageSrc={TLH}
           altText="Total Health Logo"
           className="rounded-circle my-1"
+          imageWidth="160px"
         >
           <p>
             Jenna: Owner of{" "}

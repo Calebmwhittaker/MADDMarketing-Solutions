@@ -1,12 +1,21 @@
 // import Carousel from "../components/Carousel";
 import { Outlet, Link } from "react-router-dom";
-import Footer from "../components/Footer";
+import Footer from "../parts/footer/Footer";
+import ferret from "../assets/images/Ferret.png";
 
 const NoPage = () => {
   return (
-    <div className="noPage-page">
+    <div
+      style={{ margin: "10px auto", textAlign: "center" }}
+      className="noPage-page"
+    >
       <h1>404 Error</h1>
-      <img src="ferret.png" alt="Ferret" className="ferret w-50"></img>
+      <img
+        style={{ marginLeft: "-15%", width: "50%" }}
+        src={ferret}
+        alt="Ferret"
+        className="ferret"
+      ></img>
       <h2>Oops! This page does not exist.</h2>
       <Link
         to="/"
@@ -16,8 +25,7 @@ const NoPage = () => {
       >
         Go Home
       </Link>
-      <hr className="m-auto mt-5"></hr>
-      {/* <Carousel /> */}
+      <hr style={{ margin: "30px auto auto auto", width: "80%" }}></hr>
       <Footer />
       <Outlet />
     </div>

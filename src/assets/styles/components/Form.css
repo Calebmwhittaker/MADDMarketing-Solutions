@@ -1,0 +1,10 @@
+.form-group {
+    text-align: left;
+    color: #ffffff;
+    padding: 15px;
+    display: inline-block;
+  }
+  
+  form input {
+    display: inline-block;
+  }
