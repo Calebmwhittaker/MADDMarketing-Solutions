@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BlogCard from "./BlogCard";
 import websiteDesign from "../assets/images/blog-photo-1-min.webp";
 import socialMedia from "../assets/images/blog-photo-2-min.webp";
 import onlineTools from "../assets/images/blog-photo-3-min.webp";
 
 export default function BlogCards() {
+  useEffect(() => {
+    const lcpImage = document.querySelector("img.lcp");
+    if (lcpImage) {
+      const link = document.createElement("link");
+      link.rel = "preload";
+      link.href = lcpImage.src;
+      link.as = "image";
+      document.head.appendChild(link);
+    }
+  }, []);
   return (
     <div className="blog">
       <div className="row m-0">
