@@ -9,7 +9,7 @@ export default function BlogCards() {
     <div className="blog">
       <div className="row m-0">
         <BlogCard
-          link="https://www.maddmarketingsolutions.com/blog/why-you-need-a-digital-marketer"
+          link="https://www.maddmarketingsolutions.com/maddmktblog/why-you-need-a-digital-marketer"
           imageSrc={websiteDesign}
           altText="Website Design"
         >
@@ -17,7 +17,7 @@ export default function BlogCards() {
           <h1>Why you need a digital marketer on your team</h1>
         </BlogCard>
         <BlogCard
-          link="https://www.maddmarketingsolutions.com/blog/become-a-storyteller"
+          link="https://www.maddmarketingsolutions.com/maddmktblog/become-a-storyteller"
           imageSrc={socialMedia}
           altText="Social Media"
         >
@@ -25,7 +25,7 @@ export default function BlogCards() {
           <h1>Become a storyteller! Use video to grow your audience.</h1>
         </BlogCard>
         <BlogCard
-          link="https://www.maddmarketingsolutions.com/blog/what-is-digital-marketing-how-to-use-online-tools-for-customer-growth"
+          link="https://www.maddmarketingsolutions.com/maddmktblog/what-is-digital-marketing-how-to-use-online-tools-for-customer-growth"
           imageSrc={onlineTools}
           altText="Online Tools"
         >
